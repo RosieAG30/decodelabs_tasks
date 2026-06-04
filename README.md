@@ -73,6 +73,7 @@ Insight Generation
 Author
 
 Rose Agor
+
 Data Analytics Intern
 ## Dashboard preview
 <img width="846" height="372" alt="Screenshot 2026-06-04 221533" src="https://github.com/user-attachments/assets/c13a71c2-993c-43df-aac8-c6125cd216ae" />
