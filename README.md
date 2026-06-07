@@ -20,16 +20,128 @@ Microsoft Excel
 Key Outcome
 
 A clean, structured, and analysis-ready dataset that supports accurate reporting and decision-making.
+# Project 2 Excel
 
-Project 2: Sales Analysis Dashboard in Power BI
-Objective
+## Project Overview
+
+This project focuses on analyzing sales transaction data to uncover business insights through statistical analysis, outlier detection, and dashboard creation.
+
+The objective of this project was to transform raw sales data into meaningful insights that support business decision-making by identifying trends, customer behaviors, and performance patterns.
+
+
+## Project Objectives
+
+* Conduct statistical analysis to understand data distribution
+* Detect and handle outliers using the IQR method
+* Analyze sales trends and transactional patterns
+* Generate insights using pivot tables and dashboard visualizations
+* Create business-focused observations from the dataset
+
+## Dataset Information
+
+The dataset contains transactional sales records including:
+
+* Product Categories
+* Total Price / Revenue
+* Payment Methods
+* Order Status
+* Referral Sources
+* Monthly Sales Information
+
+## Project Workflow
+
+### 1. Statistical Analysis
+
+Basic statistical measures were calculated including:
+
+* Average
+* Median
+* Sum
+* Standard Deviation
+* Minimum and Maximum Values
+
+These metrics helped understand distribution, variability, and central tendencies within the dataset.
+
+### 3. Outlier Detection
+
+Outliers were identified using the Interquartile Range (IQR) method.
+
+Steps performed:
+
+* Calculated Quartile 1 (Q1)
+* Calculated Quartile 3 (Q3)
+* Computed IQR
+* Determined Upper and Lower Bounds
+* Identified and rectified extreme values
+
+### 4. Pivot Table Analysis
+
+Pivot tables were created to analyze:
+
+* Revenue by Product
+* Monthly Sales Performance
+* Order Status Distribution
+* Payment Method Usage
+* Referral Source Performance
+
+## Key Insights
+
+### Revenue Analysis
+
+* Certain products contributed significantly more revenue than others
+* Revenue contribution was relatively distributed across multiple product categories
+
+### Sales Trends
+
+* Monthly sales fluctuated throughout the period analyzed
+* Peak sales periods were identified
+
+### Customer Behavior
+
+* Online payments showed strong adoption
+* Order cancellations and returns highlighted potential operational improvement opportunities
+
+### Outlier Findings
+
+* Extreme transaction values were identified and addressed to improve analysis reliability
+
+## Tools Used
+
+* Microsoft Excel
+* Pivot Tables
+* Statistical Analysis Techniques
+* IQR Outlier Detection Method
+
+## Skills Demonstrated
+
+* Exploratory Data Analysis (EDA)
+* Statistical Analysis
+* Business Insight Generation
+* Dashboard Development
+* Data Visualization
+* Excel Analytics
+
+## Conclusion
+
+This project demonstrates how raw transactional data can be transformed into actionable insights through structured analysis, statistical methods, and visualization techniques.
+
+
+# Project 2: Sales Analysis Dashboard in Power BI
+
+## Objective
 
 To build an interactive sales dashboard using Power BI, calculate business KPIs with DAX, and generate actionable insights.
 
-Tools Used
+
+
+## Tools Used
+
+
 Power BI
 DAX (Data Analysis Expressions)
-KPIs Calculated
+
+
+## KPIs Calculated
 Total Revenue
 Total Orders
 Total Customers
@@ -42,7 +154,10 @@ Orders by referral source
 Customer distribution by payment method
 Interactive slicers for filtering data
 Executive summary and key business insights
-Key Insights
+
+
+
+## Key Insights
 Revenue peaked in June before declining in the second half of the year, with a slight recovery toward year-end.
 Instagram generated the highest number of orders, making it the most effective referral source.
 Chairs and Printers contributed the highest revenue, while Phones generated the lowest revenue.
@@ -60,6 +175,8 @@ decodelabs_tasks/
 └── README.md
 Skills Demonstrated
 Data Cleaning
+Exploratory Data Analysis (EDA)
+Statistical Analysis
 Data Preparation
 Data Analysis
 Microsoft Excel
@@ -70,6 +187,7 @@ Dashboard Design
 Data Visualization
 Business Intelligence
 Insight Generation
+
 Author
 
 Rose Agor
